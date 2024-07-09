@@ -152,6 +152,8 @@ function bpt_save_pricing_table_meta($post_id) {
     update_post_meta($post_id, 'pricing_table_button', $button_text);
     update_post_meta($post_id, 'pricing_button_url', $button_url);
     update_post_meta($post_id, 'pricing_button_classes', $css_classes);
+
+    // some change doing to check the github
 }
 
 ?>
