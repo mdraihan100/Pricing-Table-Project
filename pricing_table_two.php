@@ -2,7 +2,8 @@
 /*
 Plugin Name: Pricing Table
 Description: A plugin to create and manage Pricing Table  two.
-Version: 1.0
+Version: 1.0.0
+PHP: 8.0
 Author:raihan
 */
 
@@ -153,7 +154,7 @@ function bpt_save_pricing_table_meta($post_id) {
     update_post_meta($post_id, 'pricing_button_url', $button_url);
     update_post_meta($post_id, 'pricing_button_classes', $css_classes);
 
-    // some change doing to check the github
+    // some change doing to check the github 
 }
 
 ?>
